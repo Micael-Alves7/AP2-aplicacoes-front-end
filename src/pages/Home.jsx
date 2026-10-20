@@ -10,7 +10,7 @@ export default function Home() {
     const [numero, setNumero] = useState(null);
 
     const { dados: pokemons, carregando, erro } = useFetch(
-        "https://pokeapi.co/api/v2/pokemon?limit=151"
+        "https://pokeapi.co/api/v2/pokemon"
     );
 
     const filtrados = pokemons.filter(pokemon =>
