@@ -1,16 +1,52 @@
-# React + Vite
+# Catálogo de Pokémons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+O Catálogo de Pokémons é uma aplicação web interativa desenvolvida com React, que permite visualizar Pokémon, pesquisar por nome e consultar informações detalhadas sobre cada um.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Os dados são obtidos por meio da PokéAPI, e a interface utiliza Tailwind CSS para proporcionar uma navegação simples e responsiva.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem de Pokémon.
+- Busca por nome.
+- Visualização dos detalhes de cada Pokémon.
+- Carregamento dos dados por meio de uma API pública.
+- Interface responsiva.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS
+
+## API utilizada
+
+**PokéAPI**
+
+API pública utilizada para obter os dados dos Pokémon.
+
+Site: https://pokeapi.co/
+
+**Endpoint:**
+
+```text
+https://pokeapi.co/api/v2/pokemon
+```
+
+## Como executar o projeto
+
+**1.** Instale as dependências:
+
+```bash
+npm install
+```
+
+**2.** Inicie a aplicação:
+
+```bash
+npm run dev
+```
+
+**3.** Acesse no navegador o endereço local informado pelo terminal.
+
